@@ -1,3 +1,6 @@
+WSJoyStick.onKey(KEY.P, function () {
+    music.play(music.tonePlayable(587, music.beat(BeatFraction.Whole)), music.PlaybackMode.UntilDone)
+})
 let donce = 0
 let d = 0
 let conce = 0
